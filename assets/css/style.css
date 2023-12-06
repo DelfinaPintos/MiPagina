@@ -418,11 +418,13 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpeg") top right;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") top right;
   background-size: cover;
+  position: relative;
 }
 
 #hero .container {
@@ -437,17 +439,19 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0;
+  margin: 0;  
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: #fff;
+ 
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: #fff;  
   margin: 10px 0 0 0;
   font-size: 22px;
+  
 }
 
 #hero .btn-about {
@@ -1167,10 +1171,7 @@ section {
   color: #555555;
 }
 
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
+
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
@@ -1209,4 +1210,5 @@ section {
 
 #footer .credits a {
   color: #34b7a7;
+  
 }
